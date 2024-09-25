@@ -45,7 +45,7 @@ console.log("     ");
 
 //Null
 var datatypenull = "Null:";
-var sita="Null";
+var sita = "Null";
 console.log(datatypenull);
 console.log("This is Null DataType: " + sita);
 console.log("   ")
@@ -62,15 +62,13 @@ var type2 = "Non-Primitive Datatypes:";
 console.log(type2);
 //Using Arrays.
 var datatypearray = "Arrays:"
-var firstfamily = "FamilyMembers";
-var FamilyMembers = {
-    Family: [
-        Father = { surname: "Bouthu", name: "Bapu", occupation: "Agriculture", age: 35 },
-        Mother = { surname: "Bouthu", name: "Rajeshwari", occupation: "Agriculture", age: 32 },
-        Brother = { surname: "Bouthu", name: "AbhiRam", occupation: "Sixth standard", age: 12 },
-        Me = { surname: "Bouthu", name: "Swarnalatha", occupation: "undergraduate student:B.Tech(CSE)", age: 22 }
-    ]
-}
+var firstfamily = "MyLovelyFamily";
+var FamilyMembers = [
+    Father = { surname: "Bouthu", name: "Bapu", occupation: "Agriculture", age: 35 },
+    Mother = { surname: "Bouthu", name: "Rajeshwari", occupation: "Agriculture", age: 32 },
+    Brother = { surname: "Bouthu", name: "AbhiRam", occupation: "Sixth standard", age: 12 },
+    Me = { surname: "Bouthu", name: "Swarnalatha", occupation: "undergraduate student:B.Tech(CSE)", age: 22 }
+]
 console.log(datatypearray);
 console.log(firstfamily);
 console.log(FamilyMembers);
@@ -78,7 +76,7 @@ console.log("    ")
 
 //Using Objects.
 var datatypeobject = "Objects:";
-var secoundfamily = "MyFamily";
+var secoundfamily = "MyCuteFamily";
 var Myfamily = {
     MyCuteFamily: {
         Myfather: { surname: "Bouthu", name: "Bapu", occupation: "Agriculture", age: 35 },
@@ -94,7 +92,7 @@ console.log("     ")
 
 //Using Variables.
 var datatypevariable = "Variables:";
-var thirdfamily = "MyFamily";
+var thirdfamily = "MySweetFamily";
 var family = {
     Myfather: { surname: "Bouthu", name: "Bapu", occupation: "Agriculture", age: 35 },
     Mymother: { surname: "Bouthu", name: "Rajeshwari", occupation: "Agriculture", age: 32 },
