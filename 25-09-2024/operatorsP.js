@@ -59,6 +59,13 @@ console.log("Strickly not Equalto[!==]: "+ stricklynotequalto);
 console.log("              ");
 
 //Type Operators.
+var typeone = "string";
+var typetwo = 20;
+var operatortype = "Type Operators:"
+console.log(operatortype);
+console.log(typeof(typeone));
+console.log(typeof(typetwo));
+console.log("              ");
 
 
 //Logical Operators
@@ -67,6 +74,17 @@ var f = 10;
 var add = 5+10
 var g = "Logical Operators:"
 var logicaland = e && f;
-var logicalor = ;
-var logicalnot = ;
+var logicalor = e || f;
+var logicalnot = e ?? f;
 console.log(g);
+console.log(logicaland);
+console.log(logicalor);
+console.log(logicalnot);
+console.log("              ");
+
+
+var w = 10;
+console.log(w.toString());
+console.log(w.toExponential());
+console.log(w.toFixed());
+console.log(w.toPrecision());
