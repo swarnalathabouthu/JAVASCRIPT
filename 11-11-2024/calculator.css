@@ -1,0 +1,44 @@
+body{
+    background-color: grey;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 80vh;
+    width: 80vw;
+}
+h1{
+    text-align: center;
+
+}
+p{
+    text-align: center;
+    font-size: larger;
+}
+
+.container{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 2px solid grey;
+    padding: 20px;
+}
+
+button{
+    height: 50px;
+    width: 50px;
+    font-size: larger;
+    margin: 2px  
+}
+
+#buttonbgcolor{
+    background-color: red;
+}
+
+#clearbutton{
+    background-color: green;
+}
+
+#equalbutton{
+    background-color: skyblue;
+}

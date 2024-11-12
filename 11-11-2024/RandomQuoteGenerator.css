@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    align-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 40vw;
+    margin: 10% auto;
+}
+.maindiv{
+    background-color: white;
+    padding: 20px;
+    align-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.container{
+    background-color: whitesmoke;
+    font-size: larger;
+    align-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+button{
+    background-color: green;
+    height: 40px;
+    width: 100px;
+    font-size: larger;
+    border-radius: 7px;
+    margin: 5px;
+}
